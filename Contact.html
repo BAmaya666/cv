@@ -3,22 +3,25 @@
 <head>
 	<meta charset="UTF-8">
 	<title>✨ Brandon's Contact</title>
+	<link rel="Stylesheet" href="css/styles.css">
 </head>
 
 <body>
+	<a href="index.html" class="button">Go back</a>
 	<h3>My Contact Details</h3>
-	<p>Vancouver, BC. Canada</p>
-	<p>6041231234</p>
-	<p>brandon@gmail.com</p>
+	<p class="same">Vancouver, BC. Canada</p>
+	<p class="same">6041231234</p>
+	<p class="same">brandon@gmail.com</p>
 	<br>
-	<form action="mailto:branamaya.ba@gmail.com" method="post" enctype="text/plain">
-		<label>Your Name:</label>
+	<form action="mailto:branamaya.ba@gmail.com" method="post" enctype="text/plain" >
+		<label class="same">Your Name:</label>
 		<input type="text" name="yourName"><br>
-		<label>Your Email:</label>
+		<label class="same">Your Email:</label>
 		<input type="email" name="yourEmail"><br>
-		<label>Message:</label><br>
-		<textarea name="yourMessage" rows="10" cols="30"></textarea><br>
-		<input type="submit" name="Save">
+		<label class="same">Message:</label><br>
+		<textarea name="yourMessage" rows="10" cols="30"></textarea><br><br>
+		<!-- <input type="submit" name="Save" onclick="alert('Alright! my agent will contact you soon')"> -->
+		<a type="submit" class="button" name="Save" onclick="alert('Alright! my agent will contact you soon')">Send it</a>
 	</form>
 </body>
 
